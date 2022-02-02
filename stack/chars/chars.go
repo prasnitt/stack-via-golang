@@ -1,4 +1,5 @@
-package string
+// Package chars implement stack of characters (rune) of a string
+package chars
 
 import "github.com/prasnitt/stack-via-golang/stack"
 

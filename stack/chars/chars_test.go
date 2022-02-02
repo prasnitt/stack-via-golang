@@ -1,4 +1,4 @@
-package string
+package chars
 
 import (
 	"testing"
