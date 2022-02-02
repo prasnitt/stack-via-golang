@@ -70,4 +70,4 @@ You will see following output after running the above code
 | 2   | Create `stack` package (with Unit test) |   DONE | 
 | 3   | Create `pattern` package (with Unit test)|   DONE | 
 | 4   | Document usage |   DONE | 
-| 5   | Final tidy up and review |   TBD | 
+| 5   | Final tidy up and review |   DONE | 
