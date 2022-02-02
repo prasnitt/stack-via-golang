@@ -24,6 +24,7 @@ func TestIsValid(t *testing.T) {
 		{"valid multiple start end", args{"{}()[]()"}, true},
 		{"valid nested start end", args{"{{[]()}}({})[]()"}, true},
 		{"valid nested start end with unwanted characters", args{"{A{[B](C)}}E(F{})G[](H)"}, true},
+		{"valid nested start end with unwanted unicode characters", args{"{你好世界 (Hello World) A[B]C}(D)E[{F}(G){H}I]J"}, true},
 
 		// Invalid examples
 		{"invalid example-1 given in problem", args{"([)]"}, false},

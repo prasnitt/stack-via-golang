@@ -35,7 +35,7 @@ func main() {
 		"{[}",
 		"{}()[{}(){}]",
 		"{[]}()[{}(){}]",
-		"{A[B]C}(D)E[{F}(G){H}I]J",
+		"{你好世界 (Hello World) A[B]C}(D)E[{F}(G){H}I]J",
 	}
 
 	for _, t := range testPatterns {
@@ -58,7 +58,7 @@ You will see following output after running the above code
  Pattern '{[}' is Invalid
  Pattern '{}()[{}(){}]' is Valid
  Pattern '{[]}()[{}(){}]' is Valid
- Pattern '{A[B]C}(D)E[{F}(G){H}I]J' is Valid
+ Pattern '{你好世界 (Hello World) A[B]C}(D)E[{F}(G){H}I]J' is Valid
 ```
 
 ## Steps Taken to build this go module:
