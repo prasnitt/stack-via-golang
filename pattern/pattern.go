@@ -6,7 +6,7 @@ const (
 	invalidChar = -1
 )
 
-// startEndMap will tell the ending char
+// startEndMap will tell the ending char for its corresponding starting character
 var startEndMap map[rune]rune = map[rune]rune{
 	[]rune("{")[0]: []rune("}")[0],
 	[]rune("[")[0]: []rune("]")[0],
@@ -66,6 +66,7 @@ func IsValid(pat string) bool {
 		}
 	}
 
-	// If stack is still not empty it means not all ending characters present in pattern string
+	// If stack is still not empty it means not all required ending characters
+	// are not present in pattern string
 	return charStack.IsEmpty()
 }
