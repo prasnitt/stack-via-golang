@@ -1,0 +1,21 @@
+You need to design a function that would become a part of a library and will do the
+following:
+	1.. it will take a string representation of nested containers and should validate if a given
+		structure was correctly defined.
+	2.. In this string representation, containers are defined using three types of brackets: [],
+		(),{} . A container may contain other containers, but the syntax follow the rules:
+		-- a child container should be closed and cannot breach the border of the parent
+		-- an opened container should always be closed
+
+	In other words ([)] or {[} definitions are incorrect. Any other variations are possible, i.e. ([]) , or ([]{}()), or (){}().
+	 Your function should take a string and return a boolean that will tell if the provided
+	definition is correct. You may expect there will be no other types of symbols in an input
+	string, only brackets.
+	Because your function will become a part of a larger library, please write it with an intention
+	that it will be read and extended by your peers.
+	
+    
+Deliverable:
+	We would expect the task wonʼt take longer than a couple of hours and hope you can finish
+	it and send to us in the next 7 days.
+	Please provide your solution either as a link to a git repo (preferable) or a gz archive.
